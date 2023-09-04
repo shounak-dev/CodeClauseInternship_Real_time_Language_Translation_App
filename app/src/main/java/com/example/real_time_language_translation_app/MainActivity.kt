@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val itemsAdapter: ArrayAdapter<String> =ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, items)
+        val itemsAdapter: ArrayAdapter<String> =ArrayAdapter(this, R.layout.custom_autocomplete, items)
 
         binding.languageFrom.setAdapter(itemsAdapter)
         binding.languageTo.setAdapter(itemsAdapter)

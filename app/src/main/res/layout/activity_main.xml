@@ -34,7 +34,9 @@
                 <AutoCompleteTextView
                     android:id="@+id/language_from"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black"
+                    android:textColor="@color/black">
 
                 </AutoCompleteTextView>
 
@@ -59,7 +61,9 @@
                 <AutoCompleteTextView
                     android:id="@+id/language_to"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="@drawable/black"
+                    android:textColor="@color/black">
 
                 </AutoCompleteTextView>
 
@@ -75,7 +79,8 @@
             android:gravity="start"
             android:textColorHint="@color/black"
             android:textColor="@color/black"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:background="@drawable/black">
 
         </EditText>
 
@@ -104,7 +109,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:textColorHint="@color/black"
-            android:textColor="@color/black">
+            android:textColor="@color/black"
+            android:background="@drawable/black">
 
         </TextView>
 
